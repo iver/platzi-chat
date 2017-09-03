@@ -3,8 +3,9 @@ package models
 import "log"
 
 type User struct {
-	Name     string
-	Fullname string
+	Id       int64
+	Username string
+	Email    string
 }
 
 func (u *User) User() {
